@@ -1,13 +1,12 @@
 {
-  "name": "my-test-package",
+  "name": "@umar28dec/my-test-package",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umar28dec/my-test-package.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
